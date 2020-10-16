@@ -1,6 +1,6 @@
 package com.techprimers.controller;
 
-public class Employee
+public class Employee {
     private String name;
     private String gender;
     private String dateOfBirth;
