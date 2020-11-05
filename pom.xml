@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers</groupId>
-    <artifactId>spring_datajpa_rds</artifactId>
+    <artifactId>devops_spring_example_one1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>spring_datajpa_rds</name>
+    <name>devops_spring_example_one1</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -51,6 +51,12 @@
             <version>5.1.6</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.0-jre</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-aws-jdbc -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -88,7 +94,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>spring_datajpa_rds</finalName>
+        <finalName>devops_spring_example_one1</finalName>
     </build>
 
 
