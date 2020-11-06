@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers</groupId>
-    <artifactId>devops_spring_example_one1</artifactId>
+    <artifactId>devops_spring_example_two2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>devops_spring_example_one1</name>
+    <name>devops_spring_example_two2</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -94,7 +94,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>devops_spring_example_one1</finalName>
+        <finalName>devops_spring_example_two2</finalName>
     </build>
 
 

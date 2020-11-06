@@ -12,7 +12,7 @@ public class EmployeeController {
 
     @GetMapping("/application")
     public String readEmployees() {
-        return "I am the application-1, -->ONE<--";
+        return "I am the application-2, -->TWO<--";
     }
 
 }
