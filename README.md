@@ -130,3 +130,4 @@ MYSQL/Aurora TCP        3306         sg-4442b81e (default)(myEc2SG)
 23. Additional step on how to connect to h2 embedded database
 Make sure you include h2 jar
 for simplicity add data.sql and schema.sql files, this will generate schemal and data for you.
+# devops_spring_example_two2
