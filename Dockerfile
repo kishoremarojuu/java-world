@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-ADD target/spring_datajpa_rds.jar spring_datajpa_rds.jar
+ADD target/devops_spring_example_two2.jar divyadocker.jar
 EXPOSE 8082
-ENTRYPOINT ["java", "-jar", "spring_datajpa_rds.jar"]
+ENTRYPOINT ["java", "-jar", "divyadocker.jar"]
