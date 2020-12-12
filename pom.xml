@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.techprimers</groupId>
-    <artifactId>devops_spring_example_two2</artifactId>
+    <artifactId>code_snippets_quick_development</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -94,7 +94,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>devops_spring_example_two2</finalName>
+        <finalName>code_snippets_quick_development</finalName>
     </build>
 
 
