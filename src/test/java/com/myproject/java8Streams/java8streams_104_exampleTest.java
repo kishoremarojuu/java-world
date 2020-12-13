@@ -5,7 +5,6 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class java8streams_104_exampleTest {
 
@@ -18,16 +17,10 @@ public class java8streams_104_exampleTest {
     );
 
     @Test
-    public void Testingsomethingg(){
-
+    public void printRepublicanPreseidentNames(){
         potusList.stream()
                 .filter(potus -> potus.getParty().equals("Republican"))
-                .forEach(new Consumer<Potus>() {
-                    @Override
-                    public void accept(Potus potus) {
-                        System.out.println(potus);
-                    }
-                });
+                .forEach(potus -> System.out.println(potus));
     }
 
 
