@@ -1,12 +1,12 @@
 package com.myproject.java8Streams;
 
-public class Java8Streams_100_User {
+public class Java8Streams_101_User {
     private int id;
     private String userName;
     private String password;
     private String email;
 
-    public Java8Streams_100_User(int id, String userName, String password, String email) {
+    public Java8Streams_101_User(int id, String userName, String password, String email) {
         this.id = id;
         this.userName = userName;
         this.password = password;
