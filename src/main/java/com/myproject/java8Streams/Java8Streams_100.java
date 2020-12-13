@@ -1,4 +1,4 @@
-package com.mmm.java8Streams;
+package com.myproject.java8Streams;
 
 import java.util.List;
 import java.util.stream.Collectors;

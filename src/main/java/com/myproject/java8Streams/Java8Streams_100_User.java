@@ -1,4 +1,4 @@
-package com.mmm.java8Streams;
+package com.myproject.java8Streams;
 
 public class Java8Streams_100_User {
     private int id;

@@ -1,4 +1,4 @@
-package com.mmm.spring_datajpa_rds;
+package com.myproject.spring_datajpa_rds;
 
 import org.junit.Test;
 

@@ -1,0 +1,59 @@
+some important commands in mac
+
+command + shift+ . --> hide/show hidden files
+command + option + v --> cut, paste
+press space on file --> will give you overview
+right click , press option command will give you the opion to copy the  file path directly
+
+cp: ./cacerts_new: Permission denied --> is the most common error in macOS
+make sure you have priviligies app turned on
+and then you still you see this
+run sudo !!  --> this will run the last comnand that got failed with Permission denied issue
+
+aws congig location:
+ ls  ~/.aws
+
+export AWS_PROFILE=GR_GG_COF_AWS_COAF_Dev_Developer
+echo $AWS_PROFILE
+
+aws s3 ls -->it will give you list of s3 buckets
+aws --profile GR_GG_COF_AWS_ConsolidatedFS_Dev_Developer s3 ls
+aws --profile GR_GG_COF_AWS_COAF_Prod_ReadOnly s3 ls
+
+aws s3 ls --profile GR_GG_COF_AWS_COAF_Dev_Developer s3://coaf-conduent-dev/efg-backup/LOBatch/
+aws s3 cp maintenanceInputFile20200802.csv --profile GR_GG_COF_AWS_ConsolidatedFS_Dev_Developer s3://coaf-conduent-qa/accounttransactions/maintenancefile/
+
+aws --profile
+ install python3 on mac: note: python2 is already installed by default in mac
+ https://docs.python-guide.org/starting/install3/osx/
+
+ install pip :
+ https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
+
+ install aws cli on mac:
+ https://github.cloud.capitalone.com/gist/pmm909/a98c0fb82a0b31f86710282db41d3642
+
+ bash profile vs zprofie
+
+ both are same
+
+ mac by defauly has bash installed in it version 3.2.57(1)-release
+
+ bash --version   --> it will give you the version
+
+ to change the shell from zsh to bash, go to systemPreferences, Users, select users, click and select user, advanced options and change the shell there
+ once you change there, also change from command prompt
+ chsh -s /usr/local/bin/bash
+
+ add the same in the path as well in .bash_profile
+ export JAVA_HOME=$(/usr/libexec/java_home)
+ export PATH=/usr/local/bin:/usr/local/cof/bin:/bin:/sbin:/usr/sbin:/usr/libexec:/Applications/apache-maven-3.6.3/bin:/usr/local/opt/python/libexec/bin:/usr/bin
+
+
+ alias teamdrogon='cd /Users/cwy916/caponeworkspace/cap1/teamDrogon/codebase'
+ alias qabastion='ssh consolidatedfs-bastion-ql.cloud.capitalone.com'
+ alias devbastion='ssh coaf-bastion-ql.cloud.capitalone.com'
+
+ alias bash="/usr/local/bin/bash"
+
+ this will be pointed to new bash now
