@@ -1,13 +1,11 @@
 package com.myproject.java8Streams;
 
+import lombok.*;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.ToIntFunction;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class java8streams_103_flatMap {
@@ -43,43 +41,17 @@ public class java8streams_103_flatMap {
 
     }
 
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Getter
+    @Setter
+    @ToString
     static class User {
         private String name;
         private int age=30;
         private List<String> phoneNumbers;
 
 
-        public User() {
-        }
 
-        public User(String name, int age, List<String> phoneNumbers) {
-            this.name = name;
-            this.age = age;
-            this.phoneNumbers = phoneNumbers;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public int getAge() {
-            return age;
-        }
-
-        public void setAge(int age) {
-            this.age = age;
-        }
-
-        public List<String> getPhoneNumbers() {
-            return phoneNumbers;
-        }
-
-        public void setPhoneNumbers(List<String> phoneNumbers) {
-            this.phoneNumbers = phoneNumbers;
-        }
     }
 }

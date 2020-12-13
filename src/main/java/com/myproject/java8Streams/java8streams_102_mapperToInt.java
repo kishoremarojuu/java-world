@@ -40,6 +40,7 @@ public class java8streams_102_mapperToInt {
         System.out.println(sum);
     }
 
+
     static class User {
         private String name;
         private int age=30;
