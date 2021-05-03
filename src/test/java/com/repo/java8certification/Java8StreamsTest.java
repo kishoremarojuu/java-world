@@ -1,4 +1,4 @@
-package com.myproject.java8Streams;
+package com.repo.java8certification;
 
 import lombok.*;
 import org.junit.Test;
