@@ -1,4 +1,4 @@
-package com.repo.java8.java_101_comparator;
+package com.repo.tutorial_100_java8.java_101_comparator;
 
 public class Employee {
 

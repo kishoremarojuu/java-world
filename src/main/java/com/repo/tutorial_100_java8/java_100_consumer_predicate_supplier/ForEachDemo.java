@@ -1,4 +1,4 @@
-package com.repo.java8.java_100_consumer_predicate_supplier;
+package com.repo.tutorial_100_java8.java_100_consumer_predicate_supplier;
 
 import java.util.ArrayList;
 import java.util.HashMap;

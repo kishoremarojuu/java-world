@@ -1,4 +1,4 @@
-package com.repo.java8.java_102_mapVsflatMap;
+package com.repo.tutorial_100_java8.java_102_mapVsflatMap;
 
 import java.util.List;
 
