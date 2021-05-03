@@ -1,4 +1,4 @@
-package com.myproject.java8certification;
+package com.repo.java8certification;
 
 import org.junit.Test;
 

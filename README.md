@@ -1,10 +1,12 @@
-# daily_code_snippets
-This codebase contains java8 certification related problems
-daily used java8 functionalities 
+# Commonly used daily Java Programming
+Commonly used daily Java Programming
+
+# JDK8 certification
+Java8 certification problmes in test folder 
+ 
 
 
-# java8
-Java 8 features
+# JDK8 features
 
 Differences between Java 8 Map() Vs flatMap() :
 
