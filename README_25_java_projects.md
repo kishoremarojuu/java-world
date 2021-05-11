@@ -40,9 +40,9 @@
 1. Github URL: https://github.com/kishoremarojuu/OOO_ObjectOrientedDesignProjects
 4. Explanation: interview preparation projects, purely on objected oriented principles ,
 code is taken from grokking the object oriented book , you may see full/partial implementation of the projects
+------------------------------------------------------------------------------------------------------------------------
 
-
-Restaurent managment system:
+### Restaurent managment system:
 1. Github URL: https://github.com/kishoremarojuu/OOO_ObjectOrientedDesignProjects/tree/master/Restaurant-Management-system
 2. Explanation: this project has not implemented fully, refered from the book to learn system design
 
