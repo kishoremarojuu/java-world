@@ -1,6 +1,6 @@
 package com.repo.java8certification;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

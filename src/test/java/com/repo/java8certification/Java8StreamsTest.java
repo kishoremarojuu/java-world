@@ -1,7 +1,7 @@
 package com.repo.java8certification;
 
 import lombok.*;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.util.Arrays;
 import java.util.List;
