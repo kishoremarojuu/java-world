@@ -71,42 +71,42 @@ https://github.com/kishoremarojuu/social-login-oauth2-spring-boot
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Project4:: Implementing saga design pattern
-https://medium.com/@johnchang94/choreography-saga-pattern-with-spring-cloud-kafka-ad46f01fc30a
+URL: https://medium.com/@johnchang94/choreography-saga-pattern-with-spring-cloud-kafka-ad46f01fc30a
 
-https://github.com/kishoremarojuu/Payment-Choreography-Saga
+URL: https://github.com/kishoremarojuu/Payment-Choreography-Saga
 ------------------------------------------------------------------------------------------------------------------------
 ### Project5::: Spring JWT based project with angular 
 Notes: Basic rest project, token generation, exposing end points, username, password secured with srping security 
 Calling rest api from angular 2 project
-https://www.youtube.com/watch?v=rBNOc4ymd1E 
+URL: https://www.youtube.com/watch?v=rBNOc4ymd1E 
 ------------------------------------------------------------------------------------------------------------------------
 ### Project6:: Microservices implementation
-https://github.com/kishoremarojuu/Springboot-Microservice
+URL: https://github.com/kishoremarojuu/Springboot-Microservice
 ------------------------------------------------------------------------------------------------------------------------
 ### Project7::: Angular8+springboot end to end deployment on aws 
-https://www.youtube.com/watch?v=q25jgAZTTsU&list=LL&index=2
-https://github.com/kishoremarojuu/springboot-angular8-crud-example
+URL: https://www.youtube.com/watch?v=q25jgAZTTsU&list=LL&index=2
+URL: https://github.com/kishoremarojuu/springboot-angular8-crud-example
 ------------------------------------------------------------------------------------------------------------------------
 ### Project8::: Spring annoation with good rest controllers testing 
-https://github.com/kishoremarojuu/annotation-validation
+URL: https://github.com/kishoremarojuu/annotation-validation
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Project9::: Parking Lot
-https://github.com/kishoremarojuu/parkinglot
+URL: https://github.com/kishoremarojuu/parkinglot
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Project10::: SpringBoot + Spring Batch 
 Implementation of csv file to DB
-https://github.com/kishoremarojuu/SpringBootBatchCvsToDb
+URL: https://github.com/kishoremarojuu/SpringBootBatchCvsToDb
 ------------------------------------------------------------------------------------------------------------------------
 
 ### Project11::: Spring petclinic 
 UI + spring boot(backend)
-https://github.com/kishoremarojuu/spring-petclinic
+URL: https://github.com/kishoremarojuu/spring-petclinic
 ------------------------------------------------------------------------------------------------------------------------
 
 ### Project12::: Spring boot multi part file upload
-https://github.com/kishoremarojuu/multifileupload
+URL: https://github.com/kishoremarojuu/multifileupload
 ------------------------------------------------------------------------------------------------------------------------
 
 #### more to come soon... 
