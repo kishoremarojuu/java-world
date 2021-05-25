@@ -1,6 +1,9 @@
 # 25 best java project implementation use case
 
-
+### java8_stream_api_exercise:
+1. GitHub url:https://github.com/kishoremarojuu/project_java8_stream_api_exercise
+This project will contain java8 stream api exercies most used on a daily basis
+ ------------------------------------------------------------------------------------------------------------------------
 ### Spring-data-jpa-rds:
 1. GitHub url:https://github.com/kishoremarojuu/spring_datajpa_rds
 2. External references:https://github.com/kishoremarojuu/spring_datajpa_rds
@@ -46,7 +49,7 @@ code is taken from grokking the object oriented book , you may see full/partial 
 1. Github URL: https://github.com/kishoremarojuu/OOO_ObjectOrientedDesignProjects/tree/master/Restaurant-Management-system
 2. Explanation: this project has not implemented fully, refered from the book to learn system design
 
-
+------------------------------------------------------------------------------------------------------------------------
 ### Project-1::: airlinereservationsystem
 good project with basic rest api methods
 1. Github URL: https://github.com/kishoremarojuu/airlinereservationsystem
@@ -86,20 +89,23 @@ https://github.com/kishoremarojuu/springboot-angular8-crud-example
 ### Project8::: Spring annoation with good rest controllers testing 
 https://github.com/kishoremarojuu/annotation-validation
 
-
+------------------------------------------------------------------------------------------------------------------------
 ### Project9::: Parking Lot
 https://github.com/kishoremarojuu/parkinglot
 
-
+------------------------------------------------------------------------------------------------------------------------
 ### Project10::: SpringBoot + Spring Batch 
 Implementation of csv file to DB
 https://github.com/kishoremarojuu/SpringBootBatchCvsToDb
+------------------------------------------------------------------------------------------------------------------------
 
 ### Project11::: Spring petclinic 
 UI + spring boot(backend)
 https://github.com/kishoremarojuu/spring-petclinic
+------------------------------------------------------------------------------------------------------------------------
 
 ### Project12::: Spring boot multi part file upload
 https://github.com/kishoremarojuu/multifileupload
+------------------------------------------------------------------------------------------------------------------------
 
 #### more to come soon... 
