@@ -1,8 +1,5 @@
 # 25 best java project implementation use case
 
-### java8_stream_api_exercise:
-1. GitHub url:https://github.com/kishoremarojuu/project_java8_stream_api_exercise
-This project will contain java8 stream api exercies most used on a daily basis
  ------------------------------------------------------------------------------------------------------------------------
 ### Spring-data-jpa-rds:
 1. GitHub url:https://github.com/kishoremarojuu/spring_datajpa_rds
@@ -19,7 +16,7 @@ This project will contain java8 stream api exercies most used on a daily basis
    security groups setup, hit aws rds instance from datagrip ide
   more info in the github URL
 ------------------------------------------------------------------------------------------------------------------------
-### kafka:
+### kafka Implementation
 1. Github URL:
   Producer: https://github.com/kishoremarojuu/spring-boot-kafka-producer-example
   Consumer: https://github.com/kishoremarojuu/spring-boot-kafka-consumer-example
@@ -31,7 +28,7 @@ This project will contain java8 stream api exercies most used on a daily basis
    post the messages from spring boot app to kafka
    poll the messages from kadka to spring boot app
 ------------------------------------------------------------------------------------------------------------------------
-### Redis:
+### Redis sample Implementation
 1. Github URL: https://github.com/kishoremarojuu/spring-redis-example
 2. Exteral references:
 3. Tools and technoligies used : spring boot , redis
@@ -50,7 +47,7 @@ code is taken from grokking the object oriented book , you may see full/partial 
 2. Explanation: this project has not implemented fully, refered from the book to learn system design
 
 ------------------------------------------------------------------------------------------------------------------------
-### Project-1::: airlinereservationsystem
+### airlinereservationsystem
 good project with basic rest api methods
 1. Github URL: https://github.com/kishoremarojuu/airlinereservationsystem
 2. External references
@@ -58,54 +55,53 @@ good project with basic rest api methods
 4. Explanation: yoy can find everything in project readme.md file
 
 ------------------------------------------------------------------------------------------------------------------------
-### Project-2::: carrental service project like enterprise or hertz
+### carrental service project like enterprise or hertz
 good project with basic rest api methods
 1. Github URL: https://github.com/kishoremarojuu/carrentalservice
 2. External references:
 3. Tools and technologies used:
 4. Explanation:
 ------------------------------------------------------------------------------------------------------------------------
-### Project3::: Spring with social login like facebook 
+### Spring with social login like facebook 
 highlights:: authentication via 3rd party providers like facebook, gmail .e.t.c
 https://github.com/kishoremarojuu/social-login-oauth2-spring-boot
 
 ------------------------------------------------------------------------------------------------------------------------
-### Project4:: Implementing saga design pattern
+### Implementing saga design pattern
 URL: https://medium.com/@johnchang94/choreography-saga-pattern-with-spring-cloud-kafka-ad46f01fc30a
-
-URL: https://github.com/kishoremarojuu/Payment-Choreography-Saga
+https://github.com/kishoremarojuu/Payment-Choreography-Saga
 ------------------------------------------------------------------------------------------------------------------------
-### Project5::: Spring JWT based project with angular 
+### Spring JWT based project with angular 
 Notes: Basic rest project, token generation, exposing end points, username, password secured with srping security 
 Calling rest api from angular 2 project
 URL: https://www.youtube.com/watch?v=rBNOc4ymd1E 
 ------------------------------------------------------------------------------------------------------------------------
-### Project6:: Microservices implementation
-URL: https://github.com/kishoremarojuu/Springboot-Microservice
+### Microservices implementation
+https://github.com/kishoremarojuu/Springboot-Microservice
 ------------------------------------------------------------------------------------------------------------------------
-### Project7::: Angular8+springboot end to end deployment on aws 
+### Angular8+springboot end to end deployment on aws 
 URL: https://www.youtube.com/watch?v=q25jgAZTTsU&list=LL&index=2
 URL: https://github.com/kishoremarojuu/springboot-angular8-crud-example
 ------------------------------------------------------------------------------------------------------------------------
-### Project8::: Spring annoation with good rest controllers testing 
+### Spring annotation with good rest controllers testing 
 URL: https://github.com/kishoremarojuu/annotation-validation
 
 ------------------------------------------------------------------------------------------------------------------------
-### Project9::: Parking Lot
+### Parking Lot
 URL: https://github.com/kishoremarojuu/parkinglot
 
 ------------------------------------------------------------------------------------------------------------------------
-### Project10::: SpringBoot + Spring Batch 
+### SpringBoot + Spring Batch 
 Implementation of csv file to DB
 URL: https://github.com/kishoremarojuu/SpringBootBatchCvsToDb
 ------------------------------------------------------------------------------------------------------------------------
 
-### Project11::: Spring petclinic 
+### Spring petclinic 
 UI + spring boot(backend)
 URL: https://github.com/kishoremarojuu/spring-petclinic
 ------------------------------------------------------------------------------------------------------------------------
 
-### Project12::: Spring boot multi part file upload
+### Spring boot multi part file upload
 URL: https://github.com/kishoremarojuu/multifileupload
 ------------------------------------------------------------------------------------------------------------------------
 
