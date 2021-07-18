@@ -15,6 +15,8 @@
    running the application in ec2
    security groups setup, hit aws rds instance from datagrip ide
   more info in the github URL
+  
+  https://github.com/kishoremarojuu/spring-boot-h2-database-crud
 ------------------------------------------------------------------------------------------------------------------------
 ### kafka Implementation
 1. Github URL:
