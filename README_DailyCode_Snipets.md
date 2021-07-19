@@ -18,3 +18,7 @@ employee-service --> main service (swagger+ h2 embedded Database)
 -----------------------------------------------------------------------------------------------------------------------
 ### working with basic rest(get, post, put, patch, delete) with h2 database, response entity, path variable and others 
 https://github.com/kishoremarojuu/spring-boot-h2-database-crud
+
+-----------------------------------------------------------------------------------------------------------------------
+### How to convert one object to other like POJO to DTO 
+BeanUtils  --> import org.springframework.beans.BeanUtils 
