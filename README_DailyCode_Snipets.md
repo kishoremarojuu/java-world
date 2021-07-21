@@ -22,3 +22,13 @@ https://github.com/kishoremarojuu/spring-boot-h2-database-crud
 -----------------------------------------------------------------------------------------------------------------------
 ### How to convert one object to other like POJO to DTO 
 BeanUtils  --> import org.springframework.beans.BeanUtils 
+
+-----------------------------------------------------------------------------------------------------------------------
+### WOrking with date, pass the date string and get the date of type Date
+   public static Date stringToDate(String date) throws ParseException {
+        DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
+        Date d = formatter.parse(date);
+        //System.out.println(date);
+        return d;
+    }
+-----------------------------------------------------------------------------------------------------------------------
