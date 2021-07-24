@@ -32,3 +32,7 @@ BeanUtils  --> import org.springframework.beans.BeanUtils
         return d;
     }
 -----------------------------------------------------------------------------------------------------------------------
+#### CORS issue: 
+For windows: open run (Win+R) and type command below:
+chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
+-----------------------------------------------------------------------------------------------------------------------
