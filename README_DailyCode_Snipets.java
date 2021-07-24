@@ -1,8 +1,9 @@
 # Daily Code Snipets
 
 ### working java8_stream_api_exercise:
-1. GitHub url:https://github.com/kishoremarojuu/project_java8_stream_api_exercise
-This project will contain java8 stream api exercises most used on a daily basis
+https://github.com/kishoremarojuu/project_java8_stream_api_exercise
+using intStream: https://github.com/kishoremarojuu/spring-boot-jpa-bulk-insert-performance/blob/master/src/main/java/com/amrut/prabhu/bulkdatainsert/BulkDataInsertApplication.java#L34
+
  ------------------------------------------------------------------------------------------------------------------------
 ### working with jackson library
 https://dzone.com/articles/jackson-annotations-for-json-part-4-general 
@@ -32,6 +33,7 @@ BeanUtils  --> import org.springframework.beans.BeanUtils
         return d;
     }
 -----------------------------------------------------------------------------------------------------------------------
+### using int 
 #### CORS issue: 
 For windows: open run (Win+R) and type command below:
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
