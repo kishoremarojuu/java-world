@@ -38,3 +38,12 @@ BeanUtils  --> import org.springframework.beans.BeanUtils
 For windows: open run (Win+R) and type command below:
 chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security
 -----------------------------------------------------------------------------------------------------------------------
+Note this example from the Java Generics FAQ. Note how the source list src (the producing list) uses extends, and the destination list dest (the consuming list) uses super:
+
+public class Collections { 
+  public static <T> void copy(List<? super T> dest, List<? extends T> src) {
+      for (int i = 0; i < src.size(); i++) 
+        dest.set(i, src.get(i)); 
+  } 
+}
+-----------------------------------------------------------------------------------------------------------------------
