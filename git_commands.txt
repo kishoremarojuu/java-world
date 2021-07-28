@@ -1,0 +1,32 @@
+  
+git config --> to set the credentials to interact with git
+git init --> for initialiazing the repo locally
+git branch --> list the branches locally 
+git branch -r -->  list branchs remotely
+git remote add origin --> for adding the origin 
+git checkout master --> to checkout master branch 
+git status --> to check the status of the untracked file or unstaged files
+git add * -> for adding all files once or git add thatfile
+git push origin master --> for pushing the changes
+git remote -v    --> this will give you origin 
+git remote add upstream --> add our original repo URLin here
+git stash --> stashing the local commits
+git stash apply --> release the statsh changes
+
+git merge branchA --> merging changes from branchA into branchB locally, be  on branchB, 
+git merge --squash branchName --> be on the master branch, merging multiple commits from branch 'branchName' into 'master' branch, squash multiple commits into sinlgle commit 
+
+git reset –soft  HEAD << number>>  and then git commit 
+git checkout -b test2 master  --> this will create test2 branch from master branch
+
+git diff origin/master..HEAD --> Viewing unpushed Git commits (locally add&commit,but not yet commited to the remote fork 
+git diff-tree -r {hash}  find a list of files that has been changed in a particular commit
+
+git branch -d localBranchName --> // delete branch locally
+
+git push origin --delete remoteBranchName -->// delete branch remotely
+
+git branch –merged --> lists the branches that have been merged into the current branch.
+git branch –no-merged --> lists the branches that have not been merged.
+
+git log --format="%H" -n 1  this will get the commit id n represents last number of commits 
