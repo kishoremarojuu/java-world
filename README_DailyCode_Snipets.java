@@ -47,3 +47,27 @@ public class Collections {
   } 
 }
 -----------------------------------------------------------------------------------------------------------------------
+format date: 
+   public static String formatDate(String input) {
+        log.debug("formatDate() called");
+        log.debug("input = " + input);
+
+        if (input == null) {
+            return null;
+        }
+
+        SimpleDateFormat prevFormat = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat newFormat = new SimpleDateFormat(DATE_FORMAT);
+        Date date = null;
+        try {
+            date = prevFormat.parse(input);
+        } catch (ParseException e) {
+            String error = "formatDate ParseException - " + e.getMessage();
+            log.error(error, e);
+            e.printStackTrace();
+            return null;
+        }
+        String newDateFormatStr = newFormat.format(date);
+        return newDateFormatStr;
+    }
+---------------------------------------------------------------------------------------------------------------------------------------
