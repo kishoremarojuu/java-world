@@ -71,3 +71,12 @@ format date:
         return newDateFormatStr;
     }
 ---------------------------------------------------------------------------------------------------------------------------------------
+gradle commands, use ./gradlew or gradle
+
+clean:: ./gradlew clean build 
+
+skip test cases: ./gradlew build -x test 
+
+clean and refresh dependecies: ./gradlew clean build --refresh-dependencies 
+
+list all projects in the build: ./gradlew -q projects 
