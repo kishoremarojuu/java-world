@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                sh 'mvn clean install -DskipTests'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test -Dspring.profiles.active=test'
+            }
+        }
+
+
+    }
+
+    post {
+                always {
+                    echo 'Pipeline complete'
+                    echo 'Cleaning workspace'
+                    cleanWs()
+                    echo 'Finished cleaning workspace'
+                }
+                success {
+                    echo 'Pipeline completed successfully'
+                }
+                failure {
+                    echo 'Pipeline failed'
+                }
+                unstable {
+                    echo 'The run was unstable'
+                }
+                changed {
+                    echo 'The state of the Pipeline has changed'
+                }
+            }
+
+}
