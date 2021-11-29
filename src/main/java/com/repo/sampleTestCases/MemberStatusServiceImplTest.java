@@ -1,4 +1,4 @@
-package com.catasys.pre.dfappl.dfapplsummaryapi.service.implementation;
+package com.repo.sampleTestCases;
 
 import static com.catasys.pre.dfappl.dfapplsummaryapi.models.constants.SummaryConstants.INTREATMENT;
 import static org.junit.jupiter.api.Assertions.assertThrows;

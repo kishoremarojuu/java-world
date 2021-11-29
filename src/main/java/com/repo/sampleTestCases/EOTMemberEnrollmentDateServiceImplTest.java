@@ -1,4 +1,4 @@
-package com.catasys.dfappl.dfapplmasterstatusservice.service.implementation;
+package com.repo.sampleTestCases;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
