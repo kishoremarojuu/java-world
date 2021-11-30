@@ -10,7 +10,11 @@ git branch -r -->  list branches remotely
 
 git remote add origin --> for adding the origin
 git remote -v    --> this will give you origin 
-git remote add upstream --> add our original repo URLin here
+git remote add upstream --> add our original repo URLin h
+
+Deleting branches: 
+git push -d origin develop --> this will remove develop branch remotely
+git branch -D develop --> this will remove develop branch locally
 
 stash:
 git stash --> stashing the local commits
