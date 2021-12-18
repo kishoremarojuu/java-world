@@ -3,7 +3,9 @@
 ### working java8_stream_api_exercise:
 https://github.com/kishoremarojuu/project_java8_stream_api_exercise
 using intStream: https://github.com/kishoremarojuu/spring-boot-jpa-bulk-insert-performance/blob/master/src/main/java/com/amrut/prabhu/bulkdatainsert/BulkDataInsertApplication.java#L34
-
+        
+### use enum in place of if-else:
+https://link.medium.com/tSP6OvM8Qkb
  ------------------------------------------------------------------------------------------------------------------------
 ### working with jackson library
 https://dzone.com/articles/jackson-annotations-for-json-part-4-general 
