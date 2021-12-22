@@ -1,16 +1,16 @@
-# Daily Code Snipets
+# Daily Code Snippets
 
 ### working java8_stream_api_exercise:
 https://github.com/kishoremarojuu/project_java8_stream_api_exercise
 using intStream: https://github.com/kishoremarojuu/spring-boot-jpa-bulk-insert-performance/blob/master/src/main/java/com/amrut/prabhu/bulkdatainsert/BulkDataInsertApplication.java#L34
         
 ### use enum in place of if-else:
-https://link.medium.com/tSP6OvM8Qkb
- ------------------------------------------------------------------------------------------------------------------------
+https://link.mediu.com/tSP6OvM8Qkb
+-----------------------------------------------------------------------------------------------------------------
 ### working with jackson library
 https://dzone.com/articles/jackson-annotations-for-json-part-4-general 
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 ### working with webclient: https://github.com/code-with-dilip/spring-webclient
 https://github.com/kishoremarojuu/spring-webclient 
 employee-app-starter  --> starter code, just to give hands on experience
@@ -18,15 +18,24 @@ employee-app --> main app, we will be consuming employee-service via webclient i
 employee-service-executable --> employee service jar 
 employee-service --> main service (swagger+ h2 embedded Database)
 
------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+### working with Optional Null
+4. Null check sample tutorial: https://github.com/mvpjava/java-optional-tutorial
+5. Null check guide optional Tired of Null Pointer Exceptions? Consider Using Java SE 8's Optional!
+
+-----------------------------------------------------------------------------------------------------------------
+String format examples:
+https://redfin.engineering/java-string-concatenation-which-way-is-best-8f590a7d22a8?gi=ce33bd55fad1
+
+-----------------------------------------------------------------------------------------------------------------
 ### working with basic rest(get, post, put, patch, delete) with h2 database, response entity, path variable and others 
 https://github.com/kishoremarojuu/spring-boot-h2-database-crud
 
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 ### How to convert one object to other like POJO to DTO 
 BeanUtils  --> import org.springframework.beans.BeanUtils 
 
------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 ### WOrking with date, pass the date string and get the date of type Date
    public static Date stringToDate(String date) throws ParseException {
         DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");

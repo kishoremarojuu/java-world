@@ -1,0 +1,39 @@
+Tutorial:
+https://www.youtube.com/watch?v=X48VuDVv0do
+
+----------------------------------------------------------------------------------------------------
+K8S commands
+
+Brew install hiperkit
+Brew install minikube, it will install kubectl as well
+
+Kubectl —> display start up commands
+Kubectl start —> start the kubenetes cluster
+
+kubectl cluster-info —> cluster info
+
+Minikube dashboard —> start the kubernetest dashboard
+
+Kubeclt get nodes
+minikube service list
+
+kubectl apply -f .
+kubectl get all
+
+
+**************PODS********************
+kubectl get pods
+kubectl logs spring-boot-k8s-5b5966c847-kbz7v
+
+kubectl get nodes -o wide or minikube ip --> because we are exposing the ip as nodeport, we need to get the internal ip
+192.168.49.2
+
+minikube service springboot-k8s-svc --url --> this will start the tunnel to establish the connection to load balanced url
+or
+use kube forwarder application to access this
+
+
+-----------------------Applications to refer to---------------
+https://github.com/Java-Techie-jt/springboot-k8s-yaml --> java-techie-sample-spring-boot-app
+https://youtu.be/VAmntTPebKE -->  Spring boot microservices + kubernetes
+
