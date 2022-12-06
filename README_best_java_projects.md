@@ -12,7 +12,7 @@ https://github.com/kishoremarojuu/spring-webclient
 ### Spring-data-jpa-rds:
 1. GitHub url:https://github.com/kishoremarojuu/spring_datajpa_rds
 2. External references:https://github.com/kishoremarojuu/spring_datajpa_rds
-3. Tools and technologies used: spring boot with jpa, AWS, RDS, docker
+3. Tools and technologies used: spring boot with jpa5, AWS, RDS, docker
 4. Explanation if any
    embeded database h2 connectivity
    AWS hosted my sql connectivity(tutorial on how to setup RDS db in aws)
