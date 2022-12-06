@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.myrepo</groupId>
-    <artifactId>myRepository</artifactId>
+    <artifactId>java-world</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>myRepository</name>
+    <name>java-world</name>
     <description>repo for daily programming</description>
 
     <parent>
