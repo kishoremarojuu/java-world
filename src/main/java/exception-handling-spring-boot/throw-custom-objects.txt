@@ -1,0 +1,36 @@
+
+public class CustomException extends RuntimeException {
+    private static final long serialVersionUID = -4459347899521597007L;
+    private Object response;
+    private boolean circuitBreakerError = false;
+
+    public CustomException() {
+    }
+
+    public Object getResponse() {
+        return this.response;
+    }
+
+    public void setResponse(Object response) {
+        this.response = response;
+    }
+
+    public boolean isCircuitBreakerError() {
+        return this.circuitBreakerError;
+    }
+
+    public void setCircuitBreakerError(boolean circuitBreakerError) {
+        this.circuitBreakerError = circuitBreakerError;
+    }
+}
+
+
+wherever you want to throw it. just crete this and throw. 
+
+ErrorResponseObject  r = new ErrorResponseObject();  //set something to r 
+ CustomException CustomException = new CustomException();
+       // CustomException.setResponse(ResponseEntity.internalServerError().body(errorResponseObject));
+        CustomException.setResponse(ResponseEntity.internalServerError().body(errorResponseObject));
+        throw CustomException;
+		
+		
