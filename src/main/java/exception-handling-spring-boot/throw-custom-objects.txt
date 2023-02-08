@@ -1,4 +1,9 @@
 
+good tuorial:: https://reflectoring.io/spring-boot-exception-handling/#controlleradvice
+
+
+
+
 public class CustomException extends RuntimeException {
     private static final long serialVersionUID = -4459347899521597007L;
     private Object response;
